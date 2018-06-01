@@ -1,5 +1,6 @@
 var fs = require('fs');
 
+
 fs.readFile('abc.txt', function (err, data) {
   if (err) {
     return console.error(err);
